@@ -1,3 +1,114 @@
 /*  full website section start  */
-
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+header{
+    background-image: url(./Images/header-bg.png);
+    height: 690px;
+}
+.half-width{
+    width: 40%;
+    padding:0 20px;
+    margin: 0 40px;
+    float: left;
+}
+.half-width.center{
+    padding: 90px 0;
+}
+.half-width img{width: 100%;display: block;}
+header .half-width h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.high-light{
+    color: #EC4C7A;
+}
+header .half-width p{
+    font-size: 20px;
+    color: grey;
+}
+a.link-button{
+    display: inline-block;
+    padding: 12px 32px;
+    background-image: linear-gradient(180deg, #EC4F8E, #EC4C78);
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.banner h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+.banner p{
+    font-size: 14px;
+    font-weight: 400;
+    color: grey;
+    padding:0 0 20px 0;
+}
+.banner-center{
+    padding: 220px 0;
+}
+.banner{
+    background-image: url(./Images/biography-bg.png);
+    background-size: cover;
+    height: 690px;
+}
+.latest-work{
+    width: calc(90% / 3);
+    padding: 0 20px;
+    display: inline-block;
+}
+.latest-work img {
+    width: 100%;
+}
+.latest-area{
+    background-image: url(./Images/latest-work-bg.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    padding: 120px 0;
+    background-position: right;
+}
+.latest-area h2{
+    text-align: center;
+    font-size: 40px; 
+    
+    padding:0 0 40px 0;
+}
+.client-area{
+    background-image: url(./Images/footer-bg.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.client-area h2{
+    text-align: center;
+    font-size: 40px; 
+    padding:0 0 40px 0;
+}
+.client-area .clent-reviews {
+    text-align: center;
+}
+.client-area .clent-reviews h3{font-size: 16px;}
+.client-area .clent-reviews h4{font-size: 16px; color: grey;}
+.client-area .clent-reviews p{font-size: 14px;
+padding-bottom: 20px;}
+.client-area .clent-reviews .message{
+    padding: 40px 120px;
+    background: #EC4C77;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.client-area .clent-reviews .message h4{
+    color: white;}
+.client-area .clent-reviews .message a{
+    color: white;
+text-decoration: none;}
+.footer{
+    font-size: 16px;
+    color: grey;
+    text-align: center;
+}
 /* // full website section end  */
